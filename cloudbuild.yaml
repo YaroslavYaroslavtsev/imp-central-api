@@ -5,6 +5,5 @@ steps:
   env:
       - 'IMP_CENTRAL_USER_PASSWORD=${_IMPT_USER_PASSWORD}'
       - 'IMP_CENTRAL_USER_EMAIL=${_IMPT_USER_NAME}'
-      - 'IMP_CENTRAL_API_DEBUG=1'
   args: ['test']
 timeout: 6h0m0s
